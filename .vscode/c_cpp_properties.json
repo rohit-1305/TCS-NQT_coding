@@ -11,7 +11,7 @@
                 "_UNICODE"
             ],
             "cStandard": "c11",
-            "intelliSenseMode": "msvc-x64",
+            "intelliSenseMode": "clang-x86",
             "compilerPath": "E:/MinGW/bin/cpp.exe"
         }
     ],

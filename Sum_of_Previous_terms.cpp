@@ -18,5 +18,6 @@ int main(){
         }
     cout << curr;
     }
+    // NOTE: test case not passed if return 0 not added
     return 0;
 }

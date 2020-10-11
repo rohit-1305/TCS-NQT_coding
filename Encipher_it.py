@@ -5,7 +5,7 @@ letter = input()
 number = int(input())
 if letter in uppercase:
     key = uppercase.index(letter)
-    print(uppercase[(key+number) % 26])
+    print(uppercase[(key+number)%26])
 elif letter in lowercase:
     key = lowercase.index(letter)
-    print(lowercase[(key+number) % 26])
+    print(lowercase[(key+number)%26])

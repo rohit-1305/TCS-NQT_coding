@@ -5,11 +5,11 @@ int main()
 {
     char letter;
     cin >> letter;
-    if ('a' >= letter && letter <= 'z')
+    if ('a' <= letter && letter <= 'z')
     {
         printf("%c", letter - 32);
     }
-    else if ('A' >= letter && letter <= 'Z')
+    else if ('A' <= letter && letter <= 'Z')
     {
         printf("%c", letter + 32);
     }

@@ -3,9 +3,8 @@ using namespace std;
 int main()
 {
 
-    int number, binary, len;
+    int number, binary;
     cin >> number;
-    len = to_string(number).length();
     string result = "";
     while (number >= 1)
     {

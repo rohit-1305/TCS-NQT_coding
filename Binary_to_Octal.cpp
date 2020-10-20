@@ -4,18 +4,18 @@ using namespace std;
 int main()
 {
     long int number, len;
-    int digit, decimal = 0;
+    int digit, octal, decimal = 0;
     cin >> number;
     len = to_string(number).length();
-    for (int i = 0; i <= len; i++)
+    for (int i = 0; i < len; i++)
     {
         digit = number % 10;
-        cout << "digit : " << digit << endl;
-
         decimal += digit * pow(2, i);
-        cout << "decimal : " << decimal << endl;
         number = number / 10;
     }
+    int remainder = decimal % 8;
+    int quotient = decimal / 8;
+    octal = quotient * 10 + remainder;
     cout << octal;
 }
 /* NOTE: incompelete*/
